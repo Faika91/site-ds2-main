@@ -35,7 +35,7 @@
 
                 <form action="">
 
-                    <div class="input-group mb-3">
+                <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1"><i class="fas fa-user-friends"></i></span>
                         </div>
@@ -55,29 +55,23 @@
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">
-                                <i class="fas fa-key"></i></span>
+                            <i class="fas fa-key"></i></span>
                         </div>
                         <input type="password" name="senha" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1">
                     </div>
-
+                
 
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">
-                                <i class="fas fa-key"></i></span>
+                            <i class="fas fa-key"></i></span>
                         </div>
                         <input type="password" name="senha" class="form-control" placeholder=" Repita a Senha" aria-label="Senha" aria-describedby="basic-addon1">
                     </div>
-
-                    <div class="form-group form-check">
-                        <input type="checkbox" name="termos" class="form-check-input" id="termos">
-                        <label class="form-check-label" for="1111">
-                            Aceitar os <a href="#" data-toggle="modal" data-target="#modaltermos">termos</a>
-                        </label>
-                    </div>
+                
 
                     <div class="form-group text-right">
-                        <button class="btn btn-primary">Cadastrar</button>
+                        <button class="btn btn-primary">Entrar</button>
                     </div>
 
                 </form>
@@ -90,36 +84,6 @@
         </div>
 
     </main><!-- /.container -->
-
-    
-
-    <!-- Modal -->
-    <div class="modal fade" id="modaltermos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Termos DS2</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <h1 class="h5">Nossos termos </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus repellat exercitationem numquam repellendus quisquam, architecto natus aut aspernatur eligendi eaque deserunt molestias dolore, nam earum voluptas harum ad impedit tempore?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum obcaecati incidunt facilis odit officiis magnam maiores nulla non at ratione repudiandae optio eos, quod quaerat minus, quibusdam ea. Inventore, in?</p>
-
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                 
-                </div>
-            </div>
-        </div>
-    </div>
-
-
 
     <!-- Principal JavaScript do Bootstrap
     ================================================== -->
