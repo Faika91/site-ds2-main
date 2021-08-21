@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -8,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon/favicon.ico">
 
-    <title>DS2</title>
+    <title>Recupera senha - DS2</title>
 
     <!-- Principal CSS do Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -16,8 +17,8 @@
     <!-- Estilos customizados para esse template -->
     <link href="css/starter-template.css" rel="stylesheet">
 
-    <!-- Fonte ícones -->
-    <script src="js/fontawesome.js"></script>
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/77f3dd62a7.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -26,32 +27,28 @@
     <main role="main" class="container">
 
         <div class="row">
-            <div class="col-sm-4 offset-sm-4 border shadow bg-white rounded">
-                <h1 class="text-center">
+            <div class="col-sm-4 offset-sm-4 bg-white mt-5 border rounded bg-white">
+                <h1 class="h4 text-center">
                     <a href="index.php">DS2</a>
                 </h1>
-                <p class="text-center">Informe seu email para recuperar a senha.</p>
+                <p class="login-box-msg text-center">Informe seu e-mail para recuperar a senha</p>
 
-                <form action="">
+                <form action="validaLogin.php" method="post">
 
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
                         </div>
-                        <input type="text" name="email" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
+                        <input type="mail" name="email" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
                     </div>
-
-                   
-                        
 
                     <div class="form-group text-right">
-                        <button class="btn btn-primary">Recuperar</button>
+                        <button type="submit" class="btn btn-primary">Recuperar</button>
                     </div>
-
                 </form>
 
-                <p>
-                    <a href="login.php">Fazer Login</a>
+                <p class="mb-1">
+                    <a href="login.php">Fazer login</a>
                 </p>
 
             </div>
