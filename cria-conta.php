@@ -6,7 +6,7 @@ $senha = $_POST[`senha`];
 $ConfirmarSenha = $_POST[`ConfirmarSenha`];
 $termos = $_POST[`termos`];
 
-$_SESSION[`mensagemErro`] - array();
+$_SESSION[`mensagemErro`] = array();
 
 if(strlen($nome)<1){
     $_SESSION[`mensagemErro`][] = "O campo nome é obrigatório";

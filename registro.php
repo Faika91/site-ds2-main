@@ -39,7 +39,7 @@
                     if(isset($_get[`erro`])){
                         
                         $erro = $_SESSION[`mensagemErro`];
-                        $dadosform - $_session[`dadosform`];
+                        $dadosform - $_SESSION[`dadosform`];
 
                     }
 
@@ -58,7 +58,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
                         </div>
-                        <input type="text" name="email" id="email" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
+                        <input type="text" name="email" id="email" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1"
                         value="<?php echo @$dadosform[`email`];?>"
                     </div>
 
@@ -66,7 +66,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
                         </div>
-                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1">
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1"
                         value="<?php echo @$dadosform[`senha`];?>"
                     </div>
 
@@ -74,8 +74,9 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
                         </div>
-                        <input type="password" name="confirmaSenha" id="confirmaSenha" class="form-control" placeholder="Repita a senha" aria-label="Repita a senha" aria-describedby="basic-addon1">
+                        <input type="password" name="confirmaSenha" id="confirmaSenha" class="form-control" placeholder="Repita a senha" aria-label="Repita a senha" aria-describedby="basic-addon1"
                         value="<?php echo @$dadosform[`confirmaSenha`];?>"
+                        <br> </br>
                     </div>
 
                         <?php
@@ -101,9 +102,9 @@
                             echo "<ul class=`alert alert-danger`>";
 
                                 foreach($erro as $mensagem){
-                                    echo "<li> $mensagem </li>"
+                                    echo "<li> $mensagem </li>";
 
-                                }
+                             }
 
                             echo "</ul>";
 
@@ -113,8 +114,9 @@
                     ?>
 
                     <div class="form-group text-right">
-                        <button type="submit" class="btn btn-primary">Cadastrar</button>
-                    </div>
+                    <br>  <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </br>    
+                </div>
                 </form>
 
                 <p class="mb-1">
