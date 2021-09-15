@@ -8,7 +8,7 @@ $banco = "bd-anuncios";
 // função de conexão com MySQL
 @$mysqli = new mysqli($serviodor_bd,$usuario_bd,$senha_bd,$banco_bd);
 
-if(mysqli->connect_errno){
+if( $mysqli->connect_errno){
     echo "FALHA AO CONECTAR, CONTATE O ADM";
 
 }else{
