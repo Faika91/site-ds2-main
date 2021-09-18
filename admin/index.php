@@ -10,20 +10,20 @@
     <title>DS2</title>
 
     <!-- Principal CSS do Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- Estilos customizados para esse template -->
-    <link href="css/starter-template.css" rel="stylesheet">
+    <link href="../css/starter-template.css" rel="stylesheet">
 
     <!-- Fonte ícones -->
-    <script src="js/fontawesome.js"></script>
+    <script src="../js/fontawesome.js"></script>
 
   </head>
 
   <body cz-shortcut-listen="true">
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Admin</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,16 +40,16 @@
             <a class="nav-link disabled" href="#">Desativado</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="https://example.com/" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <a class="nav-link dropdown-toggle" href="https://example.com/" id="dropdown01" 
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Usuario</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Item</a>
-              <a class="dropdown-item" href="#">Outro item</a>
-              <a class="dropdown-item" href="#">Algum outro item</a>
+              <a class="dropdown-item" href="#">Editar Perfil</a>
+              <a class="dropdown-item" href="#">Alterar senha</a> 
             </div>
           </li>
         </ul>
         <div class="my-2 my-lg-0">
-          <a href="login.php" class="btn btn-outline-success my-2 my-sm-0"><i class="fas fa-sign-in-alt"></i> Login</a>
+          <a href="#" class="btn btn-outline-success my-2 my-sm-0"><i class="fas fa-sign-out-alt"></i> Sair</a>
         </div>
       </div>
     </nav>
@@ -66,8 +66,8 @@
     <!-- Principal JavaScript do Bootstrap
     ================================================== -->
     <!-- Foi colocado no final para a página carregar mais rápido -->
-    <script src="js/jquery-3.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/jquery-3.js"></script>
+    <script src="../js/bootstrap.js"></script>
   
 
 </body></html>

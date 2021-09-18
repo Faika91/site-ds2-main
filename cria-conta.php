@@ -82,13 +82,12 @@ if(sizeof($_SESSION[`mensagemErro`])>0){
 
     echo "<p> Conta criada com sucesso </p>
           <p> Agora você deve <a href='ativa-conta.php?codigoAtivacao=$codigoAtivacao'> Ativar <a> a sua conta  para começar  o sistema. </p>      ";
-          
+
 }
 
 
 
 
 
-//INSERT INTO tbl_login (nome,email,senha) 
-        //VALUES('USUARIO2','usuario2@email.com', MD5('abc123') )
+
           ?>
